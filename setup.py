@@ -18,6 +18,7 @@ from src.setup import author
 from src.setup import author_email
 from src.setup import maintainer
 from src.setup import maintainer_email
+from src.setup import keywords
 
 ## Funções locais
 
@@ -61,6 +62,16 @@ test_suite = ''
 
 tests_require = ''
 
+install_requires = ''
+
+extras_require = ''
+
+package_data = ''
+
+data_files = ''
+
+entry_points = ''
+
 ## Setups
 setup(
 	author=author,
@@ -82,5 +93,11 @@ setup(
 	url=url,
 	version=version,
 	zip_safe=False,
+	keywords=keywords,
+	install_requires=install_requires,
+	extras_require=extras_require,
+	package_data=package_data,
+	data_files=data_files,
+	entry_points=entry_points,
 )
 
