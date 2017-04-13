@@ -14,6 +14,10 @@ from src.setup import license
 from src.setup import name
 from src.setup import url
 from src.setup import version
+from src.setup import author
+from src.setup import author_email
+from src.setup import maintainer
+from src.setup import maintainer_email
 
 ## Funções locais
 
@@ -59,16 +63,16 @@ tests_require = ''
 
 ## Setups
 setup(
-	author='Desobediente Civil',
-	author_email='desci@riseup.net',
+	author=author,
+	author_email=author_email,
 	classifiers=classifiers,
 	dependency_links=dependency_links,
 	description=description,
 	include_package_data=True,
 	license=license,
 	long_description=readme(),
-	maintainer='Desobediente Civil',
-	maintainer_email='desci@riseup.net',
+	maintainer=maintainer,
+	maintainer_email=maintainer_email,
 	name=name,
 	packages=packages,
 	package_dir=package_dir,

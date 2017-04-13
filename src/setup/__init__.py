@@ -6,4 +6,8 @@ from .license import license
 from .name import name
 from .url import url
 from .version import version
+from .author import author
+from .author import author_email
+from .maintainer import maintainer
+from .maintainer import maintainer_email
 

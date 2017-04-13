@@ -2,5 +2,6 @@
 
 natural_language = [
 		'Natural Language :: Portuguese (Brazilian)',
+		'Natural Language :: English',
 	]
 

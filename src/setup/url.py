@@ -1,4 +1,4 @@
 # coding: utf-8
 
-url = 'https://github.com/hiatobr/Paloma'
+url = 'https://notabug.org/desci/paloma'
 
