@@ -59,16 +59,16 @@ tests_require = ''
 
 ## Setups
 setup(
-	author='Hiato',
-	author_email='hiato@riseup.net',
+	author='Desobediente Civil',
+	author_email='desci@riseup.net',
 	classifiers=classifiers,
 	dependency_links=dependency_links,
 	description=description,
 	include_package_data=True,
 	license=license,
 	long_description=readme(),
-	maintainer='Hiato',
-	maintainer_email='hiato@riseup.net',
+	maintainer='Desobediente Civil',
+	maintainer_email='desci@riseup.net',
 	name=name,
 	packages=packages,
 	package_dir=package_dir,
